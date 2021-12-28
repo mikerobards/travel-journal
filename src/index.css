@@ -4,4 +4,17 @@
 
 body {
   margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  background-color: #f55a5a;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fa-globe-americas {
+  margin: 18px 5px 0 0;
 }
