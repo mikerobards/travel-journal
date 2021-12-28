@@ -18,3 +18,46 @@ body {
 .fa-globe-americas {
   margin: 18px 5px 0 0;
 }
+
+.card {
+  width: auto;
+  height: 200px;
+  margin: 100px;
+  display: flex;
+}
+
+.card--image {
+  width: 200px;
+  border-radius: 10px;
+}
+
+.card--stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+
+.card--title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+
+.card--desc {
+  font-size: 0.8rem;
+}
+
+.fa-map-marker-alt {
+  color: red;
+  /* margin-right: 3px; */
+}
+
+.card--location {
+  margin: 0 10px 0 3px;
+}
+
+.card--date {
+  font-weight: 700;
+  font-size: 0.8rem;
+}
